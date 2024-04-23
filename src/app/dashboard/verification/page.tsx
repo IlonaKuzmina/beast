@@ -1,19 +1,19 @@
 import PageTitle from '@/components/Typography/PageTitle';
 import SectionTitle from '@/components/Typography/SectionTitle';
-import VerificationCard from '@/components/VerificationCard/verificationCard';
 import Link from 'next/link';
 import Image from 'next/image';
 
 import React from 'react'
+import VerificationCard from '@/components/VerificationCard/VerificationCard';
 
 const Verification = () => {
     return (
         <div className=''>
             <PageTitle title={'Verification'} />
 
-            {/* <VerificationCard /> */}
+            <VerificationCard />
 
-            <div className='w-full md:w-9/12 lg:w-1/2 p-7  rounded-md bg-white shadow-md'>
+            {/* <div className='w-full md:w-9/12 lg:w-1/2 p-7  rounded-md bg-white shadow-md'>
                 <SectionTitle title={"Verification & Limits"}></SectionTitle>
                 <p className='text-center'>Please complete basic verification to start using the exchange services.</p>
                 <div className='shadow-md border-zinc-200 p-4 rounded-md'>
@@ -33,7 +33,7 @@ const Verification = () => {
                 </div>
                 <p className="mb-0 text-center">* Limits are calculated individually based on a variety of risk factors such as client data, account actions, etc.</p>
                 <p className="mb-0 text-center"><span>For Enterprises: </span>If you are interested in our corporate offerings, contact us at <Link href="mailto:enterprise@switchere.com.">enterprise@switchere.com.</Link></p>
-            </div>
+            </div> */}
         </div>
     )
 }
