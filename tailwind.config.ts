@@ -16,7 +16,10 @@ const config: Config = {
         secondaryText: "#000000",
         accentLight: "#f3e8ff",
         accentDark: "#9333ea",
-        customBackground: "#01002c",
+        backgroundPrimary: "#01002c",
+        backgroundSecondary: "#000024",
+        backgroundThird: "#090234",
+        backgroundBox: "#28284e",
         lightText: "#eeeef0",
       },
       backgroundImage: {
