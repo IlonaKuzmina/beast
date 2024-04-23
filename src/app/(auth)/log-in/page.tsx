@@ -21,15 +21,19 @@ const LogIn = () => {
                                 Login
                             </h1>
 
-                            <label className='block text-sm text-secondaryText  mt-4'>
+                            <label htmlFor='email' className='block text-sm text-secondaryText  mt-4'>
                                 <span>Email</span>
-                                <input className='block w-full border-[1px]  text-sm focus:outline-none  leading-5 rounded-md focus:border-purple-400 border-gray-300  focus:ring focus:ring-purple-300 px-1 py-2' type='email' placeholder='john@doe.com' >
+                                <input id="email" name="email"
+                                    type='email' placeholder='john@doe.com'
+                                    className='block w-full border-[1px]  text-sm focus:outline-none  leading-5 rounded-md focus:border-purple-400 border-gray-300  focus:ring focus:ring-purple-300 px-1 py-2' >
                                 </input>
                             </label>
 
-                            <label className='block text-sm text-secondaryText  mt-4'>
+                            <label htmlFor='password' className='block text-sm text-secondaryText  mt-4'>
                                 <span>Password</span>
-                                <input className='block w-full border-[1px]  text-sm focus:outline-none  leading-5 rounded-md focus:border-purple-400 border-gray-300  focus:ring focus:ring-purple-300 px-1 py-2' type='password' placeholder='*********'>
+                                <input id="password" name="password"
+                                    type='password' placeholder='*********'
+                                    className='block w-full border-[1px]  text-sm focus:outline-none  leading-5 rounded-md focus:border-purple-400 border-gray-300  focus:ring focus:ring-purple-300 px-1 py-2'>
                                 </input>
                             </label>
 

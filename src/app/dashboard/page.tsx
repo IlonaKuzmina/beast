@@ -1,7 +1,11 @@
 'use client'
+
+import { BalanceBtnGroup } from '@/components/BalanceBtnGroup/BalanceBtnGroup';
+import { Button } from '@/components/Button/Button';
 import PageTitle from '@/components/Typography/PageTitle';
+import SectionTitle from '@/components/Typography/SectionTitle';
 import response, { ITableData } from '@/utils/tableData';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export const Dashboard = () => {
     // setup pages control for every table
@@ -39,6 +43,8 @@ export const Dashboard = () => {
     return (
         <div className=''>
             <PageTitle title={'Wallet'} />
+            <BalanceBtnGroup />
+
             {dataTable1.map((user, i) => (<><p>{user.amount}</p></>))}
 
             <div className="px-4 py-3 border-t dark:border-gray-700 bg-gray-50 text-gray-500 dark:text-gray-400 dark:bg-gray-800"><div className="flex flex-col justify-between text-xs sm:flex-row text-gray-600 dark:text-gray-400">
