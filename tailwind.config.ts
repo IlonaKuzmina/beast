@@ -13,14 +13,19 @@ const config: Config = {
       },
       colors:{
         primary: "",
-        secondaryText: "#374151",
+        secondaryText: "#000000",
         accentLight: "#f3e8ff",
         accentDark: "#9333ea",
+        customBackground: "#01002c",
+        lightText: "#eeeef0",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontSize: {
+        "logo": "24px",
       },
     },
   },
