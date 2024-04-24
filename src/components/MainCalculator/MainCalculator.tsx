@@ -1,8 +1,8 @@
 
 export const MainCalculator = () => {
-  return (
-    <div>
-      <h5 className='font-bold text-[22px] font-poppins w-[90%] text-center'>Main Calculator would be here</h5>
-    </div>
-  )
+    return (
+        <div className="bg-blue-500 bg-opacity-20 backdrop-blur-md lg:max-w-[490px] w-full rounded-lg min-h-40">
+            <div className="p-8">Calculator</div>
+        </div>
+    )
 }

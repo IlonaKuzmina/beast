@@ -30,7 +30,7 @@ const config: Config = {
         backgroundSecondary: "#000024",
         backgroundThird: "#090234",
         backgroundBox: "#28284e",
-        lightText: "#eeeef0",
+        lightText: "#ffffff",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -42,6 +42,18 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.backdrop-blur-md': {
+          '--tw-backdrop-blur': 'blur(10px)',
+          '-webkit-backdrop-filter': 'var(--tw-backdrop-blur)',
+          'backdrop-filter': 'var(--tw-backdrop-blur)',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
 export default config;
