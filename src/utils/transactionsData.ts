@@ -130,7 +130,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "EUR",
     status: "success",
     orderID: "ORD706",
-    clientOrderID: "CLORD006"
+    clientOrderID: "CLORD006",
   },
   {
     date: "2024-04-26",
@@ -141,7 +141,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "USD",
     status: "danger",
     orderID: "ORD077",
-    clientOrderID: "CLORD007"
+    clientOrderID: "CLORD007",
   },
   {
     date: "2024-04-27",
@@ -152,7 +152,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "EUR",
     status: "warning",
     orderID: "ORD008",
-    clientOrderID: "CLORD008"
+    clientOrderID: "CLORD008",
   },
   {
     date: "2024-04-28",
@@ -163,7 +163,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "CAD",
     status: "neutral",
     orderID: "ORD009",
-    clientOrderID: "CLORD009"
+    clientOrderID: "CLORD009",
   },
   {
     date: "2024-04-29",
@@ -174,7 +174,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "NZD",
     status: "primary",
     orderID: "ORD010",
-    clientOrderID: "CLORD010"
+    clientOrderID: "CLORD010",
   },
   {
     date: "2024-04-30",
@@ -185,7 +185,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "GBP",
     status: "success",
     orderID: "ORD011",
-    clientOrderID: "CLORD011"
+    clientOrderID: "CLORD011",
   },
   {
     date: "2024-05-01",
@@ -196,7 +196,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "JPY",
     status: "danger",
     orderID: "ORD012",
-    clientOrderID: "CLORD012"
+    clientOrderID: "CLORD012",
   },
   {
     date: "2024-05-02",
@@ -207,7 +207,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "USD",
     status: "warning",
     orderID: "ORD013",
-    clientOrderID: "CLORD013"
+    clientOrderID: "CLORD013",
   },
   {
     date: "2024-05-03",
@@ -218,7 +218,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "EUR",
     status: "neutral",
     orderID: "ORD014",
-    clientOrderID: "CLORD014"
+    clientOrderID: "CLORD014",
   },
   {
     date: "2024-05-04",
@@ -229,7 +229,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "USD",
     status: "primary",
     orderID: "ORD015",
-    clientOrderID: "CLORD015"
+    clientOrderID: "CLORD015",
   },
   {
     date: "2024-05-05",
@@ -240,7 +240,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "GBP",
     status: "success",
     orderID: "ORD016",
-    clientOrderID: "CLORD016"
+    clientOrderID: "CLORD016",
   },
   {
     date: "2024-05-06",
@@ -251,7 +251,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "USD",
     status: "danger",
     orderID: "ORD017",
-    clientOrderID: "CLORD017"
+    clientOrderID: "CLORD017",
   },
   {
     date: "2024-05-07",
@@ -262,7 +262,7 @@ const transactionsData: ITransactionsData[] = [
     receivedCurrency: "AUD",
     status: "warning",
     orderID: "ORD018",
-    clientOrderID: "CLORD018"
+    clientOrderID: "CLORD018",
   },
 ];
 

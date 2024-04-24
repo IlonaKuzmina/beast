@@ -13,7 +13,7 @@ const TableRow = ({ date, client, amount, payCurrency, received, receivedCurrenc
             <div className='uppercase text-[14px]'>{client}</div>
             <div className='text-[14px]'>{amount} <span>{payCurrency}</span></div>
             <div className='text-[14px]'><Image src="/icons/diamond.svg" alt="Copy" width={30} height={30} className='w-[20px] h-[20px] inline-block me-2' />{received}<span> {receivedCurrency}</span></div>
-            <div className='text-[14px]'>{status}</div>
+            <div className='text-[14px] capitalize'>{status}</div>
             <div className='text-[14px] cursor-pointer relative flex flex-nowrap items-center' onClick={() => copyToClipboard(orderID)}>
                 {orderID}
                 <Image src="/icons/copy.svg" alt="Copy" width={15} height={15} className='w-[15px] h-[15px] ms-1' />
