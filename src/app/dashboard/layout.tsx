@@ -18,9 +18,7 @@ export default function DashboardLayout({
 
     return (
         <SidebarProvider>
-            <div
-                className={`flex h-screen bg-gray-50  ${isSidebarOpen && 'overflow-hidden'}`}
-            >
+            <div className={`flex h-screen bg-gray-50  ${isSidebarOpen && 'overflow-hidden'}`} >
                 <Sidebar />
                 <div className="flex flex-col flex-1 w-full">
                     <Header/>

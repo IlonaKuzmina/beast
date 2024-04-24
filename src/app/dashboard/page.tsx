@@ -1,13 +1,11 @@
 'use client'
 
 import { BalanceBtnGroup } from '@/components/BalanceBtnGroup/BalanceBtnGroup';
-import { Button } from '@/components/Button/Button';
 import PageTitle from '@/components/Typography/PageTitle';
-import SectionTitle from '@/components/Typography/SectionTitle';
 import response, { ITableData } from '@/utils/tableData';
 import { useEffect, useState } from 'react'
 
-export const Dashboard = () => {
+export default function Page () {
     // setup pages control for every table
     const [pageTable1, setPageTable1] = useState(1)
 
@@ -96,6 +94,3 @@ export const Dashboard = () => {
         </div>
     )
 }
-
-
-export default Dashboard;

@@ -1,0 +1,270 @@
+interface ITransactionsData {
+  date: string;
+  client: string;
+  amount: number;
+  payCurrency: string;
+  received: number;
+  receivedCurrency: string;
+  status: "success" | "danger" | "warning" | "neutral" | "primary" | undefined;
+  orderID: string;
+  clientOrderID: string;
+}
+
+const transactionsData: ITransactionsData[] = [
+  {
+    date: "2024-04-20",
+    client: "Alpha Inc.",
+    amount: 5000,
+    payCurrency: "USD",
+    received: 4900,
+    receivedCurrency: "EUR",
+    status: "success",
+    orderID: "ORD001",
+    clientOrderID: "CLORD001",
+  },
+  {
+    date: "2024-04-21",
+    client: "Beta LLC",
+    amount: 7500,
+    payCurrency: "USD",
+    received: 7300,
+    receivedCurrency: "GBP",
+    status: "warning",
+    orderID: "ORD002",
+    clientOrderID: "CLORD002",
+  },
+  {
+    date: "2024-04-22",
+    client: "Gamma Corp.",
+    amount: 1000,
+    payCurrency: "EUR",
+    received: 990,
+    receivedCurrency: "USD",
+    status: "danger",
+    orderID: "ORD003",
+    clientOrderID: "CLORD003",
+  },
+  {
+    date: "2024-04-23",
+    client: "Delta PLC",
+    amount: 2000,
+    payCurrency: "GBP",
+    received: 1950,
+    receivedCurrency: "USD",
+    status: "neutral",
+    orderID: "ORD004",
+    clientOrderID: "CLORD004",
+  },
+  {
+    date: "2024-04-24",
+    client: "Epsilon Ltd.",
+    amount: 3000,
+    payCurrency: "USD",
+    received: 2950,
+    receivedCurrency: "CAD",
+    status: "primary",
+    orderID: "ORD005",
+    clientOrderID: "CLORD005",
+  },
+  {
+    date: "2024-04-20",
+    client: "Alpha Inc.",
+    amount: 5000,
+    payCurrency: "USD",
+    received: 4900,
+    receivedCurrency: "EUR",
+    status: "success",
+    orderID: "ORD011",
+    clientOrderID: "CLORD001",
+  },
+  {
+    date: "2024-04-21",
+    client: "Beta LLC",
+    amount: 7500,
+    payCurrency: "USD",
+    received: 7300,
+    receivedCurrency: "GBP",
+    status: "warning",
+    orderID: "ORD022",
+    clientOrderID: "CLORD002",
+  },
+  {
+    date: "2024-04-22",
+    client: "Gamma Corp.",
+    amount: 1000,
+    payCurrency: "EUR",
+    received: 990,
+    receivedCurrency: "USD",
+    status: "danger",
+    orderID: "ORD023",
+    clientOrderID: "CLORD003",
+  },
+  {
+    date: "2024-04-23",
+    client: "Delta PLC",
+    amount: 2000,
+    payCurrency: "GBP",
+    received: 1950,
+    receivedCurrency: "USD",
+    status: "neutral",
+    orderID: "ORD404",
+    clientOrderID: "CLORD004",
+  },
+  {
+    date: "2024-04-24",
+    client: "Epsilon Ltd.",
+    amount: 3000,
+    payCurrency: "USD",
+    received: 2950,
+    receivedCurrency: "CAD",
+    status: "primary",
+    orderID: "ORD055",
+    clientOrderID: "CLORD005",
+  },
+  {
+    date: "2024-04-25",
+    client: "Zeta Inc.",
+    amount: 4500,
+    payCurrency: "USD",
+    received: 4425,
+    receivedCurrency: "EUR",
+    status: "success",
+    orderID: "ORD706",
+    clientOrderID: "CLORD006"
+  },
+  {
+    date: "2024-04-26",
+    client: "Eta Corp.",
+    amount: 6700,
+    payCurrency: "EUR",
+    received: 6600,
+    receivedCurrency: "USD",
+    status: "danger",
+    orderID: "ORD077",
+    clientOrderID: "CLORD007"
+  },
+  {
+    date: "2024-04-27",
+    client: "Theta LLC",
+    amount: 2300,
+    payCurrency: "GBP",
+    received: 2250,
+    receivedCurrency: "EUR",
+    status: "warning",
+    orderID: "ORD008",
+    clientOrderID: "CLORD008"
+  },
+  {
+    date: "2024-04-28",
+    client: "Iota Ltd.",
+    amount: 9900,
+    payCurrency: "USD",
+    received: 9800,
+    receivedCurrency: "CAD",
+    status: "neutral",
+    orderID: "ORD009",
+    clientOrderID: "CLORD009"
+  },
+  {
+    date: "2024-04-29",
+    client: "Kappa PLC",
+    amount: 1200,
+    payCurrency: "AUD",
+    received: 1180,
+    receivedCurrency: "NZD",
+    status: "primary",
+    orderID: "ORD010",
+    clientOrderID: "CLORD010"
+  },
+  {
+    date: "2024-04-30",
+    client: "Lambda Inc.",
+    amount: 5300,
+    payCurrency: "EUR",
+    received: 5200,
+    receivedCurrency: "GBP",
+    status: "success",
+    orderID: "ORD011",
+    clientOrderID: "CLORD011"
+  },
+  {
+    date: "2024-05-01",
+    client: "Mu Corp.",
+    amount: 7600,
+    payCurrency: "USD",
+    received: 7500,
+    receivedCurrency: "JPY",
+    status: "danger",
+    orderID: "ORD012",
+    clientOrderID: "CLORD012"
+  },
+  {
+    date: "2024-05-02",
+    client: "Nu LLC",
+    amount: 2800,
+    payCurrency: "CHF",
+    received: 2750,
+    receivedCurrency: "USD",
+    status: "warning",
+    orderID: "ORD013",
+    clientOrderID: "CLORD013"
+  },
+  {
+    date: "2024-05-03",
+    client: "Xi Ltd.",
+    amount: 8500,
+    payCurrency: "USD",
+    received: 8400,
+    receivedCurrency: "EUR",
+    status: "neutral",
+    orderID: "ORD014",
+    clientOrderID: "CLORD014"
+  },
+  {
+    date: "2024-05-04",
+    client: "Omicron PLC",
+    amount: 3100,
+    payCurrency: "EUR",
+    received: 3000,
+    receivedCurrency: "USD",
+    status: "primary",
+    orderID: "ORD015",
+    clientOrderID: "CLORD015"
+  },
+  {
+    date: "2024-05-05",
+    client: "Pi Inc.",
+    amount: 4500,
+    payCurrency: "USD",
+    received: 4400,
+    receivedCurrency: "GBP",
+    status: "success",
+    orderID: "ORD016",
+    clientOrderID: "CLORD016"
+  },
+  {
+    date: "2024-05-06",
+    client: "Rho Corp.",
+    amount: 6800,
+    payCurrency: "GBP",
+    received: 6700,
+    receivedCurrency: "USD",
+    status: "danger",
+    orderID: "ORD017",
+    clientOrderID: "CLORD017"
+  },
+  {
+    date: "2024-05-07",
+    client: "Sigma LLC",
+    amount: 2200,
+    payCurrency: "CAD",
+    received: 2150,
+    receivedCurrency: "AUD",
+    status: "warning",
+    orderID: "ORD018",
+    clientOrderID: "CLORD018"
+  },
+];
+
+export default transactionsData;
+export type { ITransactionsData };
