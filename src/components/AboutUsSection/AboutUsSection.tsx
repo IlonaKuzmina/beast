@@ -24,7 +24,7 @@ export const AboutUsSection = () => {
                 </div>
             </div>
             <div className="bg-backgroundThird mt-[-137.5px]">
-                <div className="container pt-[300px] pb-[200px]">
+                <div className="container pt-[300px] pb-[150px]">
                     <h2 className="mb-[60px] text-[45px] font-bold text-center">About our services</h2>
                     <div className="flex bg-backgroundBox rounded-lg max-w-full">
                         <div className="w-[50%] py-[40px] px-[80px] text-md leading-8">At , we facilitate seamless currency-to-crypto exchanges, providing a gateway for users to effortlessly convert fiat currency into various cryptocurrencies. Our platform offers multiple methods for currency conversion, including card processing, open banking, and SEPA transfers. Whether you are new to the crypto world or an experienced trader, Denrosa ensures a secure and straightforward Wexchange process. Explore our platform and embark on your journey into the world of digital currencies.</div>
