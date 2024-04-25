@@ -36,6 +36,7 @@ export const AboutUsSection = () => {
             </div>
             <section className="pt-[150px] pb-[150px]">
                 <div className="container">
+                    <h2 className="mb-[60px] text-[45px] font-bold text-center">Lorem Ipsum</h2>
                     <table className="border-none rounded-xl w-full text-lg text-left rtl:text-right text-lightText">
                         <thead className="text-md text-lightText uppercase bg-blue-500 bg-opacity-20 backdrop-blur-md">
                             <tr className="font-bold text-[16px]">
@@ -50,7 +51,7 @@ export const AboutUsSection = () => {
                             <tr className="h-[80px] bg-blue-500 bg-opacity-20 backdrop-blur-md">
                                 <td className="pt-4 pb-4 !pl-[40px]">
                                     <div className="flex items-center justify-start space-x-4">
-                                        <img className="logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" />
+                                        <Image src="/img/1.png" alt="demo" width={35} height={35} className="logo"/>
                                         <span className="name font-bold">Bitcoin</span>
                                         <span className="slug">BTC</span>
                                     </div>
@@ -58,12 +59,14 @@ export const AboutUsSection = () => {
                                 <td className="pt-4 pb-4 price-tag positive">$66,629.97</td>
                                 <td className="pt-4 pb-4 negative"><span className="pl-2">2.93%</span></td>
                                 <td className="pt-4 pb-4">26090.75</td>
-                                <td className="pt-4 pb-4 !pr-[40px] border-transparent"><img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1.svg"/></td>
+                                <td className="pt-4 pb-4 !pr-[40px] border-transparent">
+                                    <Image src="/img/11.svg" alt="demo" width={164} height={48} />
+                                </td>
                             </tr>
                             <tr className="h-[80px] bg-blue-500 bg-opacity-20 backdrop-blur-md">
                                 <td className="pt-4 pb-4 !pl-[40px]">
                                     <div className="flex items-center justify-start space-x-4">
-                                        <img className="logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" />
+                                        <Image src="/img/1.png" alt="demo" width={35} height={35} className="logo"/>
                                         <span className="name font-bold">Bitcoin</span>
                                         <span className="slug">BTC</span>
                                     </div>
@@ -71,12 +74,14 @@ export const AboutUsSection = () => {
                                 <td className="pt-4 pb-4 price-tag positive">$66,629.97</td>
                                 <td className="pt-4 pb-4 negative"><span className="pl-2">2.93%</span></td>
                                 <td className="pt-4 pb-4">26090.75</td>
-                                <td className="pt-4 pb-4 !pr-[40px] border-transparent"><img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1839.svg"/></td>
+                                <td className="pt-4 pb-4 !pr-[40px] border-transparent">
+                                    <Image src="/img/11.svg" alt="demo" width={164} height={48} />
+                                </td>
                             </tr>
                             <tr className="h-[80px] bg-blue-500 bg-opacity-20 backdrop-blur-md">
                                 <td className="pt-4 pb-4 !pl-[40px]">
                                     <div className="flex items-center justify-start space-x-4">
-                                        <img className="logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" />
+                                        <Image src="/img/1.png" alt="demo" width={35} height={35} className="logo"/>
                                         <span className="name font-bold">Bitcoin</span>
                                         <span className="slug">BTC</span>
                                     </div>
@@ -84,12 +89,14 @@ export const AboutUsSection = () => {
                                 <td className="pt-4 pb-4 price-tag positive">$66,629.97</td>
                                 <td className="pt-4 pb-4 negative"><span className="pl-2">2.93%</span></td>
                                 <td className="pt-4 pb-4">26090.75</td>
-                                <td className="pt-4 pb-4 !pr-[40px] border-transparent"><img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1.svg"/></td>
+                                <td className="pt-4 pb-4 !pr-[40px] border-transparent">
+                                    <Image src="/img/11.svg" alt="demo" width={164} height={48} />
+                                </td>
                             </tr>
                             <tr className="h-[80px] bg-blue-500 bg-opacity-20 backdrop-blur-md">
                                 <td className="pt-4 pb-4 !pl-[40px]">
                                     <div className="flex items-center justify-start space-x-4">
-                                        <img className="logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" />
+                                        <Image src="/img/1.png" alt="demo" width={35} height={35} className="logo"/>
                                         <span className="name font-bold">Bitcoin</span>
                                         <span className="slug">BTC</span>
                                     </div>
@@ -97,12 +104,14 @@ export const AboutUsSection = () => {
                                 <td className="pt-4 pb-4 price-tag positive">$66,629.97</td>
                                 <td className="pt-4 pb-4 negative"><span className="pl-2">2.93%</span></td>
                                 <td className="pt-4 pb-4">26090.75</td>
-                                <td className="pt-4 pb-4 !pr-[40px] border-transparent"><img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1839.svg"/></td>
+                                <td className="pt-4 pb-4 !pr-[40px] border-transparent">
+                                    <Image src="/img/11.svg" alt="demo" width={164} height={48} />
+                                </td>
                             </tr>
                             <tr className="h-[80px] bg-blue-500 bg-opacity-20 backdrop-blur-md">
                                 <td className="pt-4 pb-4 !pl-[40px]">
                                     <div className="flex items-center justify-start space-x-4">
-                                        <img className="logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" />
+                                        <Image src="/img/1.png" alt="demo" width={35} height={35} className="logo"/>
                                         <span className="name font-bold">Bitcoin</span>
                                         <span className="slug">BTC</span>
                                     </div>
@@ -110,12 +119,14 @@ export const AboutUsSection = () => {
                                 <td className="pt-4 pb-4 price-tag positive">$66,629.97</td>
                                 <td className="pt-4 pb-4 negative"><span className="pl-2">2.93%</span></td>
                                 <td className="pt-4 pb-4">26090.75</td>
-                                <td className="pt-4 pb-4 !pr-[40px] border-transparent"><img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1.svg"/></td>
+                                <td className="pt-4 pb-4 !pr-[40px] border-transparent">
+                                    <Image src="/img/11.svg" alt="demo" width={164} height={48} />
+                                </td>
                             </tr>
                             <tr className="h-[80px] bg-blue-500 bg-opacity-20 backdrop-blur-md">
                                 <td className="rounded-bl-xl pt-4 pb-4 !pl-[40px]">
                                     <div className="flex items-center justify-start space-x-4">
-                                        <img className="logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" />
+                                        <Image src="/img/1.png" alt="demo" width={35} height={35} className="logo"/>
                                         <span className="name font-bold">Bitcoin</span>
                                         <span className="slug">BTC</span>
                                     </div>
@@ -123,14 +134,70 @@ export const AboutUsSection = () => {
                                 <td className="pt-4 pb-4 price-tag positive">$66,629.97</td>
                                 <td className="pt-4 pb-4 negative"><span className="pl-2">2.93%</span></td>
                                 <td className="pt-4 pb-4">26090.75</td>
-                                <td className="rounded-br-xl pt-4 pb-4 !pr-[40px] border-transparent"><img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1.svg"/></td>
+                                <td className="pt-4 pb-4 !pr-[40px] border-transparent">
+                                    <Image src="/img/11.svg" alt="demo" width={164} height={48} />
+                                </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </section>
 
-
+            <div className="bg-backgroundThird">
+                <div className="container pt-[150px] pb-[150px]">
+                    <h2 className="mb-[60px] text-[45px] font-bold text-center">Partners works with</h2>
+                    <div className="flex flex-wrap items-center justify-center max-w-full">
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/binance.svg" alt="demo" width={226} height={45} />
+                        </div>
+                        <div className="px-8 py-6">
+                            <Image src="/img/visa.svg" alt="demo" width={185} height={60} />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
