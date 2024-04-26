@@ -4,14 +4,14 @@ import { Button } from '../Button/Button';
 
 export const VerificationCard = () => {
     return (
-        <div className='w-full md:w-5/6 lg:w-2/6 p-7  rounded-md bg-white shadow-md text-center overflow-y-auto max-h-screen'>
+        <div className='w-full md:w-5/6 lg:w-2/6 p-7  rounded-xl bg-white shadow-md text-center overflow-y-auto max-h-screen'>
             <SectionTitle title={"Verification & Limits"} color={'secondaryText'}></SectionTitle>
 
             <p className='text-center'>Please complete basic verification to start using the exchange services.</p>
 
 
             <div className=''>
-                <div className='shadow-md border-zinc-200 p-4 rounded-md'>
+                <div className='shadow-md border-zinc-200 p-4 rounded-xl'>
                     <div>
                         <p className='font-bold text-[23px]'>€700 *</p>
                     </div>
@@ -32,7 +32,7 @@ export const VerificationCard = () => {
             </div>
 
             <div className=''>
-                <div className='shadow-md border-zinc-200 p-4 rounded-md'>
+                <div className='shadow-md border-zinc-200 p-4 rounded-xl'>
                     <div>
                         <p className='font-bold text-[23px]'>€700 *</p>
                     </div>
@@ -53,7 +53,7 @@ export const VerificationCard = () => {
             </div>
 
             <div className=''>
-                <div className='shadow-md border-zinc-200 p-4 rounded-md'>
+                <div className='shadow-md border-zinc-200 p-4 rounded-xl'>
                     <div>
                         <p className='font-bold text-[23px]'>€700 *</p>
                     </div>
@@ -74,7 +74,7 @@ export const VerificationCard = () => {
             </div>
 
             <div className=''>
-                <div className='shadow-md border-zinc-200 p-4 rounded-md'>
+                <div className='shadow-md border-zinc-200 p-4 rounded-xl'>
                     <div>
                         <p className='font-bold text-[23px]'>€700 *</p>
                     </div>

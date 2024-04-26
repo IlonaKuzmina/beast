@@ -40,9 +40,13 @@ const config: Config = {
       fontSize: {
         "logo": "24px",
       },
+      gridTemplateColumns: {
+        gridColumsCurrencies: "min-content min-content 2fr 2fr 3fr 4fr min-content",
+      }
     },
   },
   plugins: [
+    // @ts-ignore
     function ({ addUtilities }) {
       const newUtilities = {
         '.backdrop-blur-md': {

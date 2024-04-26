@@ -60,13 +60,13 @@ const Transactions = () => {
     return (
         <div className=''>
             <PageTitle title={'Transactions'} />
-            <div className='w-full rounded-md bg-white shadow-md p-3 md:p-7'>
+            <div className='w-full rounded-xl bg-white shadow-md p-3 md:p-7'>
                 <div className='flex justify-end gap-3 flex-wrap'>
                     <select
                         name="time"
                         id=""
                         disabled={dataTable.length === 0}
-                        className={`${dataTable.length === 0 ? "bg-gray-300 cursor-not-allowed" : " bg-gray-50 cursor-pointer"}  block  w-full sm:w-[44%] md:w-1/6 border-[1px] text-sm focus:outline-none leading-5 rounded-md focus:border-purple-400 border-gray-300 focus:ring focus:ring-purple-300 px-1 py-2`}>
+                        className={`${dataTable.length === 0 ? "bg-gray-300 cursor-not-allowed" : " bg-gray-50 cursor-pointer"}  block  w-full sm:w-[44%] md:w-1/6 border-[1px] text-sm focus:outline-none leading-5 rounded-xl focus:border-purple-400 border-gray-300 focus:ring focus:ring-purple-300 px-1 py-2`}>
                         <option value="all">All time</option>
                         <option value="today">Today</option>
                         <option value="week">Last week</option>
@@ -78,7 +78,7 @@ const Transactions = () => {
                         name="status"
                         id=""
                         disabled={dataTable.length === 0}
-                        className={`${dataTable.length === 0 ? "bg-gray-300 cursor-not-allowed" : " bg-gray-50 cursor-pointer"}  block  w-full sm:w-[44%] md:w-1/6 border-[1px] text-sm focus:outline-none leading-5 rounded-md focus:border-purple-400 border-gray-300 focus:ring focus:ring-purple-300 px-1 py-2`}>
+                        className={`${dataTable.length === 0 ? "bg-gray-300 cursor-not-allowed" : " bg-gray-50 cursor-pointer"}  block  w-full sm:w-[44%] md:w-1/6 border-[1px] text-sm focus:outline-none leading-5 rounded-xl focus:border-purple-400 border-gray-300 focus:ring focus:ring-purple-300 px-1 py-2`}>
                         <option value="all">All statuses</option>
                         <option value="awaiting">Awaiting Payment</option>
                         <option value="confirmation">Confirmation Pending</option>
@@ -96,7 +96,7 @@ const Transactions = () => {
                         name="currencies"
                         id=""
                         disabled={dataTable.length === 0}
-                        className={`${dataTable.length === 0 ? "bg-gray-300 cursor-not-allowed" : " bg-gray-50 cursor-pointer"}  block  w-full sm:w-[44%] md:w-1/6 border-[1px] text-sm focus:outline-none leading-5 rounded-md focus:border-purple-400 border-gray-300 focus:ring focus:ring-purple-300 px-1 py-2`}>
+                        className={`${dataTable.length === 0 ? "bg-gray-300 cursor-not-allowed" : " bg-gray-50 cursor-pointer"}  block  w-full sm:w-[44%] md:w-1/6 border-[1px] text-sm focus:outline-none leading-5 rounded-xl focus:border-purple-400 border-gray-300 focus:ring focus:ring-purple-300 px-1 py-2`}>
                         <option value="all">All currencies</option>
                         <option value="eur">EUR</option>
                         <option value="btc">BTC</option>
@@ -151,7 +151,7 @@ const Transactions = () => {
                                                         <button
                                                             disabled={pageTable === 1}
                                                             onClick={() => onPageChangeTable(pageTable - 1)}
-                                                            className={`align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium p-2 rounded-md text-gray-600 dark:text-gray-400 focus:outline-none border border-transparent ${pageTable === 1 ? 'opacity-50' : 'hover:bg-gray-100'}`}
+                                                            className={`align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium p-2 rounded-xl text-gray-600 dark:text-gray-400 focus:outline-none border border-transparent ${pageTable === 1 ? 'opacity-50' : 'hover:bg-gray-100'}`}
                                                             aria-label="Previous"
                                                         >
                                                             {'<'}
@@ -162,7 +162,7 @@ const Transactions = () => {
                                                         <li key={page}>
                                                             <button
                                                                 onClick={() => onPageChangeTable(page)}
-                                                                className={`align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium px-3 py-1 rounded-md text-xs ${page === pageTable ? 'text-white bg-purple-600' : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-300 dark:hover:bg-opacity-10'} focus:outline-none border border-transparent`}
+                                                                className={`align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium px-3 py-1 rounded-xl text-xs ${page === pageTable ? 'text-white bg-purple-600' : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-300 dark:hover:bg-opacity-10'} focus:outline-none border border-transparent`}
                                                             >
                                                                 {page}
                                                             </button>
@@ -173,7 +173,7 @@ const Transactions = () => {
                                                         <button
                                                             disabled={pageTable === totalPages}
                                                             onClick={() => onPageChangeTable(pageTable + 1)}
-                                                            className={`align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium p-2 rounded-md text-gray-600 dark:text-gray-400 focus:outline-none border border-transparent ${pageTable === totalPages ? 'opacity-50' : 'hover:bg-gray-100'}`}
+                                                            className={`align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium p-2 rounded-xl text-gray-600 dark:text-gray-400 focus:outline-none border border-transparent ${pageTable === totalPages ? 'opacity-50' : 'hover:bg-gray-100'}`}
                                                             aria-label="Next"
                                                         >
                                                             {'>'}

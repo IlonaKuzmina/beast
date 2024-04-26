@@ -28,7 +28,7 @@ export const BalanceBtnGroup = () => {
     }
 
     return (
-        <div className='rounded-md p-7 shadow-lg bg-white'>
+        <div className='rounded-xl p-7 shadow-lg bg-white mb-7'>
             <SectionTitle title={'Total Balance'} color={'secondaryText'} />
 
             <div className='flex flex-col md:flex-row  justify-between'>
