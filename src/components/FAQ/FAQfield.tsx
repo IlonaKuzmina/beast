@@ -10,8 +10,8 @@ interface IFAQfield {
 
 export const FAQfield = ({ isOpen, question, answer, answerToggler }: IFAQfield) => {
     return (
-        <div className="bg-backgroundBox p-[40px] rounded-xl mb-[20px] cursor-pointer">
-            <div className="text-[20px] font-bold flex flex-row justify-between items-center" onClick={answerToggler}>
+        <div className="bg-backgroundBox p-[40px] rounded-xl mb-[20px] cursor-pointer" onClick={answerToggler}>
+            <div className="text-[20px] font-bold flex flex-row justify-between items-center" >
                 {question}
 
                 {!isOpen
