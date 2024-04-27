@@ -37,7 +37,7 @@ export const FAQ = () => {
     return (
         <section className=" py-[150px] text-lightText bg-backgroundSecondary w-full">
             <div className="container">
-                <h2 className="mb-[60px] text-[45px] font-bold text-center">FAQ</h2>
+                <h2 id="animate-left" className="mb-[60px] text-[45px] font-bold text-center">FAQ</h2>
 
                 {content.map((item, index) => (
                     <FAQfield key={index} isOpen={isOpenIndex === index} question={item.question} answer={item.answer} answerToggler={() => answerToggler(index)} />

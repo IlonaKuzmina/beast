@@ -1,18 +1,18 @@
 
 import { AboutUsSection } from "@/components/AboutUsSection/AboutUsSection";
+import { BestDealsSection } from "@/components/BestDealsSection/BestDealsSection";
 import { FAQ } from "@/components/FAQ/FAQ";
-import { Footer } from "@/components/Footer/Footer";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
-import { MainHeader } from "@/components/MainHeader/MainHeader";
+import { OurPartnersSection } from "@/components/OurPartnersSection/OurPartnersSection";
 
 export default function Page() {
     return (
         <main className="min-h-screen bg-backgroundPrimary">
-            <MainHeader />
             <HeroSection />
             <AboutUsSection />
+            <BestDealsSection />
+            <OurPartnersSection />
             <FAQ />
-            <Footer />
         </main>
     );
 }

@@ -38,25 +38,36 @@ a {
 }
 @keyframes LoaderDots1 {
   0% {
-      transform: scale(0);
+    transform: scale(0);
   }
   100% {
-      transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes LoaderDots3 {
   0% {
-      transform: scale(1);
+    transform: scale(1);
   }
   100% {
-      transform: scale(0);
+    transform: scale(0);
   }
 }
 @keyframes LoaderDots2 {
   0% {
-      transform: translate(0, 0);
+    transform: translate(0, 0);
   }
   100% {
-      transform: translate(24px, 0);
+    transform: translate(24px, 0);
   }
+}
+
+#animate-left {
+  display: block;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+#animate-bottom {
+  transform: translateY(200px);
+  opacity: 0;
 }

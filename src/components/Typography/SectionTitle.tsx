@@ -1,8 +1,8 @@
 import { FC } from "react";
 
 interface ISectionTitle {
- title: string
- color:string
+  title: string
+  color: string
 }
 
 const SectionTitle: FC<ISectionTitle> = ({ title, color }) => {

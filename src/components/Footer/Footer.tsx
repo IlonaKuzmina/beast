@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from 'next/link';
 
 export const Footer = () => {
     return (
@@ -35,22 +35,22 @@ export const Footer = () => {
                     <div className="w-[25%]">
                         <h5 className="text-[18px] font-bold mb-[15px]">Services</h5>
                         <ul>
-                            <li className="mb-2"><a href="#">Privacy Policy</a></li>
+                        <li className="mb-2"><Link href={'/privacy'}>Privacy Policy</Link></li>
                             <li className="mb-2"><a href="#">Cookie Polic</a></li>
-                            <li className="mb-2"><a href="#">Terms of Use</a></li>
+                            <li className="mb-2"><Link href={'/terms'}>Terms of Use</Link></li>
                         </ul>
                     </div>
                     <div className="w-[25%]">
                         <h5 className="text-[18px] font-bold mb-[15px]">Services</h5>
                         <ul>
-                            <li className="mb-2"><a href="#">Privacy Policy</a></li>
+                            <li className="mb-2"><Link href={'/privacy'}>Privacy Policy</Link></li>
                             <li className="mb-2"><a href="#">Cookie Polic</a></li>
-                            <li className="mb-2"><a href="#">Terms of Use</a></li>
+                            <li className="mb-2"><Link href={'/terms'}>Terms of Use</Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className="text-lightText flex justify-center pt-[50px]">© 2024 CryptoBeast. All rights reserved.</div>
             </div>
         </footer>
-  )
+    )
 }

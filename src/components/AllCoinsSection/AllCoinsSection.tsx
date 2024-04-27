@@ -18,7 +18,7 @@ export const AllCoinsSection = () => {
     }
 
     return (
-        <div className='rounded-xl p-7 shadow-lg bg-white'>
+        <div  className='rounded-xl p-7 shadow-lg bg-white'>
             <SectionTitle title={'All coins'} color={'secondaryText'} />
 
             <div className='flex flex-col md:flex-row  justify-between'>
