@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 export const Footer = () => {
     return (
-        <footer className='bg-backgroundPrimary text-lightText pt-[150px] pb-[150px]'>
+        <footer className='bg-backgroundPrimary text-lightText pt-[150px] pb-[150px]' style={{backgroundImage: "url('/img/5166950.jpg')", backgroundSize: "cover"}}>
             <div className='container'>
-                <div className="flex">
-                    <div className="w-[25%]">
+                <div className="flex flex-wrap">
+                    <div className="lg:w-[25%] w-[50%]">
                         <h5 className="text-[18px] font-bold mb-[15px]">Convert USD</h5>
                         <ul>
                             <li className="mb-2"><a href="#">Buy Bitcoin with Credit Card</a></li>
@@ -18,7 +18,7 @@ export const Footer = () => {
                             <li className="mb-2"><a href="#">Lorem ipsum</a></li>
                         </ul>
                     </div>
-                    <div className="w-[25%]">
+                    <div className="lg:w-[25%] w-[50%] lg:pt-0 pt-8">
                         <h5 className="text-[18px] font-bold mb-[15px]">Services</h5>
                         <ul>
                             <li className="mb-2"><a href="#">About us</a></li>
@@ -32,7 +32,7 @@ export const Footer = () => {
                             <li className="mb-2"><a href="#">Demo text</a></li>
                         </ul>
                     </div>
-                    <div className="w-[25%]">
+                    <div className="lg:w-[25%] w-[50%] lg:pt-0 pt-8">
                         <h5 className="text-[18px] font-bold mb-[15px]">Services</h5>
                         <ul>
                         <li className="mb-2"><Link href={'/privacy'}>Privacy Policy</Link></li>
@@ -40,7 +40,7 @@ export const Footer = () => {
                             <li className="mb-2"><Link href={'/terms'}>Terms of Use</Link></li>
                         </ul>
                     </div>
-                    <div className="w-[25%]">
+                    <div className="lg:w-[25%] w-[50%] lg:pt-0 pt-8">
                         <h5 className="text-[18px] font-bold mb-[15px]">Services</h5>
                         <ul>
                             <li className="mb-2"><Link href={'/privacy'}>Privacy Policy</Link></li>

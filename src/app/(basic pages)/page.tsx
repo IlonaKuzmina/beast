@@ -7,7 +7,7 @@ import { OurPartnersSection } from "@/components/OurPartnersSection/OurPartnersS
 
 export default function Page() {
     return (
-        <main className="min-h-screen bg-backgroundPrimary">
+        <main className="min-h-screen bg-backgroundThird">
             <HeroSection />
             <AboutUsSection />
             <BestDealsSection />

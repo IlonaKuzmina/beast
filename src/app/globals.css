@@ -100,3 +100,11 @@ h1 {
   transform: translateY(200px);
   opacity: 0;
 }
+
+.positive {
+  color: #16c784;
+}
+
+.negative {
+  color: #d92424;
+}

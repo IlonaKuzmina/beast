@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export const MainCalculator = () => {
     return (
-        <div className="bg-blue-500 bg-opacity-20 backdrop-blur-md lg:max-w-[490px] w-full rounded-lg">
-            <div className="p-8">
+        <div className="bg-backgroundSecondary bg-opacity-80 backdrop-blur-md lg:w-[550px] w-full rounded-lg">
+            <div className="px-8 py-[80px]">
                 <form>
                     <div className="mb-[20px]">
                         <label className="text-lightText block mb-[10px]">You send</label>
