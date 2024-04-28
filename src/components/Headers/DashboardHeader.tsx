@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SidebarContext from '@/context/SidebarContext'
 
-const Header = () => {
+const DashboardHeader = () => {
   const { toggleSidebar } = useContext(SidebarContext)
 
   return (
@@ -14,7 +14,7 @@ const Header = () => {
           className="p-1  -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-purple"
           onClick={toggleSidebar}
           aria-label="Menu">
-          <Image src="/icons/hamburger.svg" alt="Copy" width={60} height={60} className='w-[40px] h-[40px] inline-block'/>
+          <Image src="/icons/hamburger.svg" alt="Copy" width={60} height={60} className='w-[40px] h-[40px] inline-block' />
         </button>
 
         <div className="flex justify-center flex-1 lg:mr-32" />
@@ -30,4 +30,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default DashboardHeader;

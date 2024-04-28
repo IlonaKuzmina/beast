@@ -7,7 +7,7 @@ interface ISectionTitle {
 
 const SectionTitle: FC<ISectionTitle> = ({ title, color }) => {
   return (
-    <h2 className={`mb-4 text-lg font-semibold text-secondaryText font-poppins`}>{title}</h2>
+    <h2 className={`mb-4 text-lg font-semibold text-secondaryText font-poppins select-none`}>{title}</h2>
   )
 }
 

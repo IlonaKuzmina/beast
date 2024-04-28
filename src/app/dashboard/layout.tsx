@@ -1,6 +1,6 @@
 'use client'
 
-import Header from '@/components/Header'
+import DashboardHeader from '@/components/Headers/DashboardHeader'
 import Sidebar from '@/components/Sidebar'
 import SidebarContext, { SidebarProvider } from '@/context/SidebarContext'
 import React, { useContext } from 'react'
@@ -21,7 +21,7 @@ export default function DashboardLayout({
             <div className={`flex h-screen bg-gray-50  ${isSidebarOpen && 'overflow-hidden'}`} >
                 <Sidebar />
                 <div className="flex flex-col flex-1 w-full">
-                    <Header/>
+                    <DashboardHeader />
                     <main className="h-full overflow-y-auto">
                         <div className="container grid px-3 lg:px-6 mx-auto">{children}</div>
                     </main>

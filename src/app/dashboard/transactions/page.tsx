@@ -1,10 +1,10 @@
 'use client'
 
-import MobileTableRow from '@/components/TableRows/MobileTableRow';
-import TableRow from '@/components/TableRows/TableRow';
 import PageTitle from '@/components/Typography/PageTitle';
 import response, { ITransactionsData } from '@/utils/transactionsData';
 import { useEffect, useState } from 'react';
+import TransactionMobileTableRow from '@/components/TableRows/TransactionMobileTableRow';
+import TransactionTableRow from '@/components/TableRows/TransactionTableRow';
 
 const Transactions = () => {
     const [pageTable, setPageTable] = useState(1);
@@ -121,14 +121,14 @@ const Transactions = () => {
                             <>
                                 {dataTable.map((transaction, index) => (
                                     isMobile ? (
-                                        <MobileTableRow
+                                        <TransactionMobileTableRow
                                             key={transaction.orderID}
                                             {...transaction}
                                             showCopied={copiedOrderID === transaction.orderID}
                                             copyToClipboard={handleCopyToClipboard}
                                         />
                                     ) : (
-                                        <TableRow
+                                        <TransactionTableRow
                                             key={transaction.orderID}
                                             {...transaction}
                                             showCopied={copiedOrderID === transaction.orderID}

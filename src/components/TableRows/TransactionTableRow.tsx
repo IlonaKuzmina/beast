@@ -1,12 +1,12 @@
 import { ITransactionsData } from '@/utils/transactionsData';
 import Image from 'next/image';
 
-interface ITableRowData extends ITransactionsData {
+interface ITransactionTableRowData extends ITransactionsData {
     showCopied: boolean;
     copyToClipboard: (orderID: string) => Promise<void>;
 }
 
-const TableRow = ({ date, client, amount, payCurrency, received, receivedCurrency, status, orderID, clientOrderID, copyToClipboard, showCopied }: ITableRowData) => {
+const TransactionTableRow = ({ date, client, amount, payCurrency, received, receivedCurrency, status, orderID, clientOrderID, copyToClipboard, showCopied }: ITransactionTableRowData) => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-7 border-b-2 py-3 grid-flow-row auto-rows-max md:auto-rows-min gap-x-2'>
             <div className='text-[14px]'>{date}</div>
@@ -24,4 +24,4 @@ const TableRow = ({ date, client, amount, payCurrency, received, receivedCurrenc
     );
 }
 
-export default TableRow;
+export default TransactionTableRow;

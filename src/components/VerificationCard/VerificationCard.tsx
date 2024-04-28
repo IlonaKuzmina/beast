@@ -4,7 +4,7 @@ import { Button } from '../Button/Button';
 
 export const VerificationCard = () => {
     return (
-        <div className='w-full md:w-5/6 lg:w-2/6 p-7  rounded-xl bg-white shadow-md text-center overflow-y-auto max-h-screen'>
+        <div className='verification-scroll w-full md:w-5/6 lg:w-2/6 p-4 md:p-7 rounded-xl bg-white shadow-md text-center md:overflow-y-auto md:max-h-screen mb-[50px] md:mb-32'>
             <SectionTitle title={"Verification & Limits"} color={'secondaryText'}></SectionTitle>
 
             <p className='text-center'>Please complete basic verification to start using the exchange services.</p>

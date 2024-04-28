@@ -1,12 +1,12 @@
 import { ITransactionsData } from '@/utils/transactionsData';
 import Image from 'next/image';
 
-interface ITableRowData extends ITransactionsData {
+interface ITransactionTableRowData extends ITransactionsData {
     showCopied: boolean;
     copyToClipboard: (orderID: string) => Promise<void>;
 }
 
-const MobileTableRow = ({ date, client, amount, payCurrency, received, receivedCurrency, status, orderID, clientOrderID, copyToClipboard, showCopied }: ITableRowData) => {
+const TransactionMobileTableRow = ({ date, client, amount, payCurrency, received, receivedCurrency, status, orderID, clientOrderID, copyToClipboard, showCopied }: ITransactionTableRowData) => {
     return (
         <div className='p-[15px] sm:p-3 border-b-2 grid grid-col-1 sm:grid-cols-2 gap-2'>
             <div className='grid grid-cols-2 sm:grid-cols-1'>
@@ -51,4 +51,4 @@ const MobileTableRow = ({ date, client, amount, payCurrency, received, receivedC
     );
 }
 
-export default MobileTableRow;
+export default TransactionMobileTableRow;

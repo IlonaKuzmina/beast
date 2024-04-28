@@ -13,21 +13,19 @@ interface ISidebarContent {
 }
 
 function SidebarContent({ linkClicked }: ISidebarContent) {
-  const pathname  = usePathname();
+  const pathname = usePathname();
 
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
   }, []);
 
-  const routerPath = isClient ? pathname:  '/' ;
+  const routerPath = isClient ? pathname : '/';
 
   return (
     <div className="text-gray-500 ">
-      <Link href="/#" passHref className=''>
-        <div className='ml-6 py-6 text-lg font-bold text-secondaryText'>
-          CryptoBeast.live
-        </div>
+      <Link href="/">
+        <div className="text-logo font-bold ml-6 py-6"><span className="text-purple-600">Crypto</span>Beast</div>
       </Link>
 
       <ul>

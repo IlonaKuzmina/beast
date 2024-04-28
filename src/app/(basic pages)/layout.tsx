@@ -1,6 +1,6 @@
 
 import { Footer } from '@/components/Footer/Footer'
-import { MainHeader } from '@/components/MainHeader/MainHeader'
+import { MainHeader } from '@/components/Headers/MainHeader'
 
 interface ILayout {
     children: React.ReactNode
