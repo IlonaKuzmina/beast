@@ -32,10 +32,10 @@ export const AboutUsSection = () => {
             <div className="bg-backgroundThird">
                 <div className="container pt-[150px] pb-[150px]">
                     <h2 id="animate-left" className="mb-[60px] text-[45px] font-bold text-center">About our services</h2>
-                    <div id="animate-bottom" className="flex flex-wrap md:flex-col bg-backgroundBox rounded-lg max-w-full">
+                    <div id="animate-bottom" className="flex flex-wrap flex-col md:flex-row bg-backgroundBox rounded-lg max-w-full">
                         <div className="w-[100%] lg:w-[50%] py-[40px] lg:px-[80px] px-[20px] text-md leading-8">At , we facilitate seamless currency-to-crypto exchanges, providing a gateway for users to effortlessly convert fiat currency into various cryptocurrencies. Our platform offers multiple methods for currency conversion, including card processing, open banking, and SEPA transfers. Whether you are new to the crypto world or an experienced trader, Denrosa ensures a secure and straightforward Wexchange process. Explore our platform and embark on your journey into the world of digital currencies.</div>
                         <div className="w-[100%] lg:w-[50%] lg:pt-0 pt-8">
-                            <Image src="/img/universe.jpeg" alt="demo" width={1100} height={600} />
+                            <Image src="/img/universe.jpeg" alt="demo" width={1100} height={600} className='rounded-b-xl md:!rounded-e-xl md:rounded-b-unset'/>
                         </div>
                     </div>
                 </div>
