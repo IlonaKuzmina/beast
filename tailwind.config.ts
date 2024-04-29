@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer/Footer";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -21,7 +22,7 @@ const config: Config = {
           "2xl": "5rem",
         },
       },
-      colors:{
+      colors: {
         primary: "",
         secondaryText: "#000000",
         accentLight: "#f3e8ff",
@@ -34,29 +35,31 @@ const config: Config = {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+
+        homeHeroBg: "url('/img/Vector_2646.jpg')",
+        footerBg: "url('/img/5166950.jpg')",
       },
       fontSize: {
-        "logo": "24px",
+        logo: "24px",
       },
       gridTemplateColumns: {
         gridColumsCurrencies: "min-content min-content 2fr 2fr 3fr 4fr min-content",
-      }
+      },
     },
   },
   plugins: [
     // @ts-ignore
     function ({ addUtilities }) {
       const newUtilities = {
-        '.backdrop-blur-md': {
-          '--tw-backdrop-blur': 'blur(10px)',
-          '-webkit-backdrop-filter': 'var(--tw-backdrop-blur)',
-          'backdrop-filter': 'var(--tw-backdrop-blur)',
+        ".backdrop-blur-md": {
+          "--tw-backdrop-blur": "blur(10px)",
+          "-webkit-backdrop-filter": "var(--tw-backdrop-blur)",
+          "backdrop-filter": "var(--tw-backdrop-blur)",
         },
       };
 
-      addUtilities(newUtilities, ['responsive', 'hover']);
+      addUtilities(newUtilities, ["responsive", "hover"]);
     },
   ],
 };

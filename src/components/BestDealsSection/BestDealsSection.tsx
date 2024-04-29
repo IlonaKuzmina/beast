@@ -5,7 +5,7 @@ export const BestDealsSection = () => {
         <section className="pt-[150px] pb-[150px] text-lightText bg-backgroundSecondary">
             <div className="container">
                 <h2 id="animate-left" className="mb-[60px] text-[45px] font-bold text-center">Best deals</h2>
-                <div id="animate-bottom" class="relative overflow-x-auto">
+                <div id="animate-bottom" className="relative overflow-x-auto">
                     <table className="table-auto border-none rounded-xl w-full text-lg text-left rtl:text-right text-lightText">
                         <thead className="text-md text-lightText uppercase bg-blue-500 bg-opacity-20 backdrop-blur-md">
                             <tr className="font-bold text-[16px]">

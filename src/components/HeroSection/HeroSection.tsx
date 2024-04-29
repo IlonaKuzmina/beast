@@ -2,7 +2,7 @@ import { MainCalculator } from '../MainCalculator/MainCalculator'
 
 export const HeroSection = () => {
     return (
-        <section className="pt-[100px] lg:pb-[400px] pb-[250px] text-lightText" style={{backgroundImage: "url('/img/Vector_2646.jpg')", backgroundSize: "cover"}}>
+        <section className="pt-[100px] lg:pb-[400px] pb-[250px] text-lightText bg-homeHeroBg bg-cover bg-no-repeat bg-center">
             <div className="container flex flex-wrap justify-between md:flex-col">
                 <div id="animate-left" className="lg:max-w-[50%] max-w-[100%] w-full pt-[50px]">
                     <h2 id="in-view-load-from-left" className="mb-[20px] text-[56px] font-bold font-poppins">Buy & Sell<br /> Crypto Instantly</h2>

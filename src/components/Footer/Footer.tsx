@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
     return (
-        <footer className='bg-backgroundPrimary text-lightText pt-[150px] pb-[150px]' style={{backgroundImage: "url('/img/5166950.jpg')", backgroundSize: "cover"}}>
+        <footer className='bg-backgroundPrimary text-lightText pt-[150px] pb-[150px] bg-footerBg bg-cover bg-no-repeat' >
             <div className='container'>
                 <div className="flex flex-wrap">
                     <div className="md:w-[25%] sm:w-[50%] w-full">
